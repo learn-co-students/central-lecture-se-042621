@@ -2,9 +2,9 @@
 
 ## Key Concepts
 
-* Identify Components on a Webpage
-* Diagram Component Hierarchy
-* Render Multiple Components
-* Discuss Dynamic Components
-* Understand Props and Data Flow
-* Use Props to Render Dynamic Components
+* Identifying Components on a Webpage
+* Component Hierarchy
+* Rendering Multiple Components
+* Dynamic Components
+* Props and Data Flow
+* Using Props to Render Dynamic Components
