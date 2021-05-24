@@ -14,11 +14,11 @@ class Hog extends Component {
 
   async showSpecialty() {
     try {
-      const jsonPromise = await fetch(`http://localhost:5000/hogs/${this.props.hogObject.id}`);
-      const hog = await jsonPromise.json();
+      const promise = await fetch(`http://localhost:5000/hogs/${this.props.hogObject.id}`);
+      const json = await promise.json();
       
       this.setState({
-        specialty: hog.specialty,
+        specialty: json.specialty,
       });
 
     } catch (err) {
