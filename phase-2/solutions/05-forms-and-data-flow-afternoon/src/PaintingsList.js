@@ -8,7 +8,6 @@ import { Grid } from '@material-ui/core';
 import { Container } from '@material-ui/core';
 import { Box } from '@material-ui/core'
 
-
 class PaintingsList extends React.Component{
   constructor(props) {
     // super() enables us to access the parent
@@ -34,7 +33,6 @@ class PaintingsList extends React.Component{
       // run our search
       filteredList = originalList.filter(painting => {
         const title = painting.title.toLowerCase();
-
         const query = e.target.value.toLowerCase();
 
         return title.includes(query)
