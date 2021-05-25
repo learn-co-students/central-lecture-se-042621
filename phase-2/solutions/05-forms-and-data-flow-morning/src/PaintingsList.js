@@ -3,10 +3,10 @@ import Painting from './Painting';
 
 // we need to specify which material-ui
 // component we want to use
-import { TextField } from '@material-ui/core'
+import { TextField } from '@material-ui/core';
 import { Grid } from '@material-ui/core';
 import { Container } from '@material-ui/core';
-import { Box } from '@material-ui/core'
+import { Box } from '@material-ui/core';
 
 
 class PaintingsList extends React.Component{
@@ -34,19 +34,18 @@ class PaintingsList extends React.Component{
       // run our search
       filteredList = originalList.filter(painting => {
         const title = painting.title.toLowerCase();
-
         const query = e.target.value.toLowerCase();
 
         return title.includes(query)
-      })
+      });
       
       this.setState({
         filteredList: filteredList
-      })
+      });
     } else {
       this.setState({
         filteredList: originalList
-      })
+      });
     }
   }
 
