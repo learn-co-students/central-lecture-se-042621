@@ -5,20 +5,6 @@
 * Use React Router to Implement Single-Page Client-Side Routes 
 * Use `<Switch />`, `<Route />`, `<NavLink />`, and nested routes to Implement Client-Side Routing
 
-# React-Router
-
-## Key Concepts
-
-* Use React Router to Implement Single-Page Client-Side Routes 
-* Use `<Switch />`, `<Route />`, `<NavLink />`, and nested routes to Implement Client-Side Routing
-
-# React-Router
-
-## Key Concepts
-
-* Use React Router to Implement Single-Page Client-Side Routes 
-* Use `<Switch />`, `<Route />`, `<NavLink />`, and nested routes to Implement Client-Side Routing
-
 ## Setup
 
 For this project, the following packages have been included:  
